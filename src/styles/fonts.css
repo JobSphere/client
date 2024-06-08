@@ -1,0 +1,30 @@
+@font-face {
+    font-family: "merriweather-bold";
+    src: url("/src/assets/fonts/Merriweather-Bold.ttf");
+    font-weight: bold;
+}
+
+@font-face {
+    font-family: "merriweather-regular";
+    src: url("/src/assets/fonts/Merriweather-Regular.ttf");
+}
+
+@font-face {
+    font-family: "merriweather-italic";
+    src: url("/src/assets/fonts/Merriweather-Italic.ttf");
+}
+
+@font-face {
+    font-family: "merriweather-light";
+    src: url("/src/assets/fonts/Merriweather-Light.ttf");
+}
+
+@font-face {
+    font-family: "noto-sans";
+    src: url("/src/assets/fonts/Noto-Sans.ttf");
+}
+
+@font-face {
+    font-family: "inconsolata";
+    src: url("/src/assets/fonts/Inconsolata_SemiExpanded-Regular.ttf");
+}

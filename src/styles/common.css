@@ -1,0 +1,50 @@
+h1,
+h2 {
+    user-select: none;
+}
+
+h1 {
+    @apply text-3xl;
+}
+
+h2,
+b {
+    font-family: merriweather-bold;
+}
+
+p {
+    word-wrap: break-word;
+    font-family: inconsolata;
+}
+
+i {
+    font-family: merriweather-italic;
+}
+
+button {
+    /* padding: 5px 30px; */
+    @apply px-7 py-2 select-none rounded-lg;
+    color: var(--white-color);
+    background-color: var(--accent);
+    font-family: merri-weather-light;
+    transition: background-color 250ms;
+    &:hover {
+        background-color: var(--button-hover);
+    }
+}
+
+input {
+    @apply p-2 text-center max-md:w-full;
+    outline: 1px solid var(--button-color);
+    transition: box-shadow 250ms;
+    &:focus {
+        outline: none;
+        box-shadow: 1px 2px 5px 0 var(--accent);
+    }
+}
+
+@media screen and (width < 850px) {
+    header {
+        @apply flex-col;
+    }
+}

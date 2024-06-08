@@ -1,0 +1,9 @@
+.job-post {
+    background-color: var(--primary);
+    transition: transform 200ms;
+    font-family: noto-sans;
+    &:hover {
+        cursor: pointer;
+        transform: translateY(-2px);
+    }
+}

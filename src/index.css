@@ -1,0 +1,28 @@
+@import "tailwindcss/base";
+@import "tailwindcss/components";
+@import "tailwindcss/utilities";
+
+
+@import "./main.css";
+
+@import "./styles/common.css";
+@import "./styles/fonts.css";
+@import "./styles/colors.css";
+
+
+
+@media (prefers-color-scheme: light) {
+	:root {
+		color: #213547;
+		background-color: #E8E5F0;
+	}
+}
+@media (prefers-color-scheme: dark) {
+	:root {
+		color: #E8E5F0;
+		background-color: #0D0915;
+	}
+	.job-post {
+		background-color: #412083;
+	}
+}
